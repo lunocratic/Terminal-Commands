@@ -4,9 +4,9 @@ A structured reference of macOS terminal commands from beginner (Level 1) to adv
 
 ---
 
-## Level 1 — Noobie
+## Level 1 — Noobie 🐣
 
-### Navigation
+### Navigation 📁
 
 | Command            | Description                      |
 |--------------------|--------------------------------|
@@ -17,7 +17,7 @@ A structured reference of macOS terminal commands from beginner (Level 1) to adv
 | `cd ~`             | Go to home directory            |
 | `clear`            | Clear terminal screen           |
 
-### File Management
+### File Management 📂
 
 | Command            | Description                      |
 |--------------------|--------------------------------|
@@ -27,7 +27,7 @@ A structured reference of macOS terminal commands from beginner (Level 1) to adv
 | `cp file.txt copy.txt` | Copy file                    |
 | `rm file.txt`      | Delete file                     |
 
-### Viewing/Editing Files
+### Viewing/Editing Files 📝
 
 | Command            | Description                      |
 |--------------------|--------------------------------|
@@ -35,13 +35,13 @@ A structured reference of macOS terminal commands from beginner (Level 1) to adv
 | `open file.txt`    | Open file with default app     |
 | `nano file.txt`    | Edit file in terminal           |
 
-### Searching
+### Searching 🔍
 
 | Command            | Description                      |
 |--------------------|--------------------------------|
 | `find . -name file.txt` | Find file in current directory tree |
 
-### System Info
+### System Info 💻
 
 | Command            | Description                      |
 |--------------------|--------------------------------|
@@ -49,13 +49,13 @@ A structured reference of macOS terminal commands from beginner (Level 1) to adv
 | `date`             | Show current date and time      |
 | `uptime`           | System uptime                   |
 
-### Permissions
+### Permissions 🔑
 
 | Command            | Description                      |
 |--------------------|--------------------------------|
 | `chmod +x script.sh` | Make script executable          |
 
-### Fun/Surprise Commands
+### Fun/Surprise Commands 🎉
 
 | Command            | Description                      |
 |--------------------|--------------------------------|
@@ -63,23 +63,23 @@ A structured reference of macOS terminal commands from beginner (Level 1) to adv
 
 ---
 
-## Level 2 — Beginner
+## Level 2 — Beginner 🐤
 
-### Navigation
+### Navigation 📁
 
 | Command            | Description                      |
 |--------------------|--------------------------------|
 | `ls -la`           | List all files with details      |
 | `cd ~/Documents`   | Navigate to Documents folder     |
 
-### File Management
+### File Management 📂
 
 | Command            | Description                      |
 |--------------------|--------------------------------|
 | `rm -r folder/`    | Delete folder and contents       |
 | `cp -R folder/ backup/` | Copy folder and contents     |
 
-### Viewing/Editing Files
+### Viewing/Editing Files 📝
 
 | Command            | Description                      |
 |--------------------|--------------------------------|
@@ -87,27 +87,27 @@ A structured reference of macOS terminal commands from beginner (Level 1) to adv
 | `head -n 10 file.txt` | First 10 lines                |
 | `tail -n 10 file.txt` | Last 10 lines                 |
 
-### Searching
+### Searching 🔍
 
 | Command            | Description                      |
 |--------------------|--------------------------------|
 | `grep "text" file.txt` | Search for text in file       |
 
-### System Info
+### System Info 💻
 
 | Command            | Description                      |
 |--------------------|--------------------------------|
 | `top`              | Real-time system usage           |
-| `df -h`            | Disk space in human-readable     |
+| `df -h`            | Disk space human-readable        |
 
-### Permissions
+### Permissions 🔑
 
 | Command            | Description                      |
 |--------------------|--------------------------------|
 | `ls -l`            | Show permissions on files        |
 | `chmod 755 script.sh` | Set rwxr-xr-x permissions       |
 
-### Fun/Surprise Commands
+### Fun/Surprise Commands 🎉
 
 | Command            | Description                      |
 |--------------------|--------------------------------|
@@ -115,50 +115,50 @@ A structured reference of macOS terminal commands from beginner (Level 1) to adv
 
 ---
 
-## Level 3 — Intermediate
+## Level 3 — Intermediate 🐥
 
-### Navigation
+### Navigation 📁
 
 | Command            | Description                      |
 |--------------------|--------------------------------|
 | `pushd dir/`       | Save current dir and go to new one |
 | `popd`             | Return to previous dir           |
 
-### File Management
+### File Management 📂
 
 | Command            | Description                      |
 |--------------------|--------------------------------|
 | `mv *.txt backup/` | Move all .txt files to folder    |
 | `rm *.log`         | Delete all .log files            |
 
-### Viewing/Editing Files
+### Viewing/Editing Files 📝
 
 | Command            | Description                      |
 |--------------------|--------------------------------|
 | `vi file.txt`      | Open file in vi editor           |
 | `diff file1.txt file2.txt` | Compare files              |
 
-### Searching
+### Searching 🔍
 
 | Command            | Description                      |
 |--------------------|--------------------------------|
 | `grep -r "text" .` | Recursive search                |
 | `find / -name "file"` | Search from root (slow)       |
 
-### System Info
+### System Info 💻
 
 | Command            | Description                      |
 |--------------------|--------------------------------|
 | `env`              | Show environment variables       |
 | `uname -a`         | Show system information          |
 
-### Permissions
+### Permissions 🔑
 
 | Command            | Description                      |
 |--------------------|--------------------------------|
 | `chown user:staff file` | Change ownership             |
 
-### Fun/Surprise Commands
+### Fun/Surprise Commands 🎉
 
 | Command            | Description                      |
 |--------------------|--------------------------------|
@@ -166,50 +166,50 @@ A structured reference of macOS terminal commands from beginner (Level 1) to adv
 
 ---
 
-## Level 4 — Advanced
+## Level 4 — Advanced 🦅
 
-### Navigation
+### Navigation 📁
 
 | Command            | Description                      |
 |--------------------|--------------------------------|
 | `alias ..="cd .."` | Shortcut for going up            |
 | `dirs`             | List directory stack             |
 
-### File Management
+### File Management 📂
 
 | Command            | Description                      |
 |--------------------|--------------------------------|
 | `tar -czf archive.tgz folder/` | Create compressed archive |
 | `unzip file.zip`   | Unzip archive                   |
 
-### Viewing/Editing Files
+### Viewing/Editing Files 📝
 
 | Command            | Description                      |
 |--------------------|--------------------------------|
 | `sed 's/foo/bar/g' file.txt` | Replace text in file       |
 | `awk '{print $1}' file.txt` | Print first column         |
 
-### Searching
+### Searching 🔍
 
 | Command            | Description                      |
 |--------------------|--------------------------------|
 | `grep -i "text" file.txt` | Case-insensitive search     |
 | `grep -v "skip" file.txt` | Exclude lines              |
 
-### System Info
+### System Info 💻
 
 | Command            | Description                      |
 |--------------------|--------------------------------|
 | `ps aux`           | List all processes              |
 | `kill -9 PID`      | Force-kill a process            |
 
-### Permissions
+### Permissions 🔑
 
 | Command            | Description                      |
 |--------------------|--------------------------------|
 | `chmod -R 755 folder/` | Recursive permission change   |
 
-### Fun/Surprise Commands
+### Fun/Surprise Commands 🎉
 
 | Command            | Description                      |
 |--------------------|--------------------------------|
@@ -217,47 +217,47 @@ A structured reference of macOS terminal commands from beginner (Level 1) to adv
 
 ---
 
-## Level 5 — Pro
+## Level 5 — Pro 🦉
 
-### Navigation
+### Navigation 📁
 
 | Command            | Description                      |
 |--------------------|--------------------------------|
 | `for d in */; do echo "$d"; done` | List subdirectories using loop |
 
-### File Management
+### File Management 📂
 
 | Command            | Description                      |
 |--------------------|--------------------------------|
 | `rsync -av folder/ backup/` | Sync folders efficiently  |
 | `ln -s target link` | Create symbolic link             |
 
-### Viewing/Editing Files
+### Viewing/Editing Files 📝
 
 | Command            | Description                      |
 |--------------------|--------------------------------|
 | `tail -f log.txt`  | Follow live updates to a log file |
 | `vim file.txt`     | Open file in vim editor          |
 
-### Searching
+### Searching 🔍
 
 | Command            | Description                      |
 |--------------------|--------------------------------|
 | `grep -E "foo|bar" file.txt` | Extended regex search     |
 
-### System Info
+### System Info 💻
 
 | Command            | Description                      |
 |--------------------|--------------------------------|
 | `system_profiler SPHardwareDataType` | Detailed system hardware info |
 
-### Permissions
+### Permissions 🔑
 
 | Command            | Description                      |
 |--------------------|--------------------------------|
 | `sudo chmod 000 file.txt` | Deny all access             |
 
-### Fun/Surprise Commands
+### Fun/Surprise Commands 🎉
 
 | Command            | Description                      |
 |--------------------|--------------------------------|
