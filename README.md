@@ -98,7 +98,7 @@ A structured reference of macOS terminal commands from beginner (Level 1) to adv
 | Command            | Description                      |
 |--------------------|--------------------------------|
 | `top`              | Real-time system usage           |
-| `df -h`            | Disk space human-readable        |
+| `df -h`            | Disk space in human-readable     |
 
 ### Permissions
 
@@ -150,7 +150,7 @@ A structured reference of macOS terminal commands from beginner (Level 1) to adv
 | Command            | Description                      |
 |--------------------|--------------------------------|
 | `env`              | Show environment variables       |
-| `uname -a`         | System info                    |
+| `uname -a`         | Show system information          |
 
 ### Permissions
 
@@ -213,7 +213,7 @@ A structured reference of macOS terminal commands from beginner (Level 1) to adv
 
 | Command            | Description                      |
 |--------------------|--------------------------------|
-| `cowsay "Use the terminal"` | ASCII cow speech (needs cowsay installed) |
+| `cowsay "Use the terminal"` | ASCII cow speech (requires cowsay installed) |
 
 ---
 
@@ -223,7 +223,7 @@ A structured reference of macOS terminal commands from beginner (Level 1) to adv
 
 | Command            | Description                      |
 |--------------------|--------------------------------|
-| `for d in */; do echo "$d"; done` | List subdirs using loop   |
+| `for d in */; do echo "$d"; done` | List subdirectories using loop |
 
 ### File Management
 
@@ -236,8 +236,8 @@ A structured reference of macOS terminal commands from beginner (Level 1) to adv
 
 | Command            | Description                      |
 |--------------------|--------------------------------|
-| `tail -f log.txt`  | Live follow a log file           |
-| `vim file.txt`     | Open file in vim                |
+| `tail -f log.txt`  | Follow live updates to a log file |
+| `vim file.txt`     | Open file in vim editor          |
 
 ### Searching
 
@@ -249,7 +249,7 @@ A structured reference of macOS terminal commands from beginner (Level 1) to adv
 
 | Command            | Description                      |
 |--------------------|--------------------------------|
-| `system_profiler SPHardwareDataType` | Detailed hardware info |
+| `system_profiler SPHardwareDataType` | Detailed system hardware info |
 
 ### Permissions
 
@@ -266,5 +266,5 @@ A structured reference of macOS terminal commands from beginner (Level 1) to adv
 ---
 
 ```sh
-# End of file. Keep practicing and check man pages for more details:
+# End of file. Keep practicing and use man pages for full command details:
 man [command]         # Get help for any command
